@@ -131,7 +131,7 @@ export default [
     "name": "Adele Goldberg",
     "shortDescription": "Informática pionera, co-creadora del lenguaje de programación Smalltalk.",
     "description": "Informática estadounidense reconocida por su influyente trabajo en la investigación y desarrollo de la programación orientada a objetos. Su contribución más destacada es la creación del lenguaje de programación Smalltalk, que revolucionó la forma en que se desarrollan software y sistemas informáticos. Goldberg ha sido una defensora incansable de la usabilidad y la accesibilidad en la informática, asegurando que las aplicaciones informáticas sean más amigables para los usuarios. Su trabajo ha allanado el camino para una programación más intuitiva y eficiente, y su legado perdura en la industria de la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/adele-goldberg.jpg",
+    "imageUrl": "https://d34zi8nxray0rk.cloudfront.net/102695725-03-04.jpg",
     "facts": {
       "yearOfBirth": "1945",
       "birthPlace": "Chicago, Estados Unidos",
@@ -146,8 +146,7 @@ export default [
     "name": "Barbara Liskov",
     "shortDescription": "Científica de la computación, pionera en programación orientada a objetos.",
     "description": "Pionera de la informática, es conocida por su trabajo en la programación y la arquitectura de sistemas distribuidos. Fue la primera mujer en obtener un doctorado en ciencias de la computación en el Instituto de Tecnología de Stanford y desarrolló el lenguaje de programación CLU, que estableció fundamentos para la programación orientada a objetos. Liskov ha dejado una marca indeleble en la industria de la tecnología al liderar avances en sistemas de almacenamiento y seguridad informática. Su enfoque en la fiabilidad y la robustez ha influido en el diseño de sistemas críticos en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/barbara-liskov.jpg",
-    "facts": {
+    "imageUrl": "https://cdn.britannica.com/86/129086-004-A93A7277/Barbara-Liskov-Turing-Award-2008.jpg.",
       "yearOfBirth": "1939",
       "birthPlace": "Los Angeles, Estados Unidos",
       "mainField": "Ciencia de la Computación"
@@ -161,7 +160,7 @@ export default [
     "name": "Grace Hopper",
     "shortDescription": "Científica de la computación, creadora del primer compilador.",
     "description": "Una de las pioneras de la informática, es famosa por su contribución al desarrollo del primer compilador y al lenguaje de programación COBOL. Además, desafió los estereotipos de género en la década de 1940 al unirse a la Marina de los Estados Unidos y convertirse en la primera programadora de la computadora Harvard Mark I. Su legado abarca la creación de conceptos cruciales como la \"depuración de software\" y su influencia en el desarrollo de la informática moderna, estableciendo estándares para la programación de alto nivel y la innovación tecnológica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/grace-hopper.jpg",
+    "imageUrl": "https://cyberwarmag.com/wp-content/uploads/2023/05/Grace-Hopper2.jpg",
     "facts": {
       "yearOfBirth": "1906",
       "yearOfDeath": "1992",
@@ -177,7 +176,7 @@ export default [
     "name": "Margaret Hamilton",
     "shortDescription": "Científica de la computación, lideró desarrollo de software para Apollo 11.",
     "description": "Destacada científica de la computación que desempeñó un papel fundamental en el programa Apollo de la NASA. Fue directora de la División de Ingeniería de Software en el Laboratorio de Instrumentación del MIT, donde desarrolló el concepto de \"ingeniería de software\". Su liderazgo en el desarrollo del software de vuelo para las misiones Apollo fue fundamental para el éxito de la llegada del hombre a la Luna. Hamilton es un ejemplo de cómo la tecnología y la ciencia pueden alcanzar logros extraordinarios cuando se combinan con un enfoque innovador y una visión audaz.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/margaret-hamilton.jpg",
+    "imageUrl": "https://mujeresconciencia.com/app/uploads/2021/07/hamilton_port-300x168.jpg",
     "facts": {
       "yearOfBirth": "1936",
       "birthPlace": "Paoli, Indiana, Estados Unidos",
@@ -192,7 +191,7 @@ export default [
     "name": "Radia Perlman",
     "shortDescription": "Ingeniera de redes, inventora del algoritmo Spanning Tree.",
     "description": "Científica de la computación estadounidense, ha dejado una marca indeleble en el mundo de las redes informáticas y la seguridad. Conocida como \"la madre de Internet\", su invención del algoritmo Spanning Tree Protocol (STP) revolucionó la conectividad de redes y sentó las bases para la infraestructura de Internet moderna. A pesar de operar en un campo dominado por hombres, Perlman ha demostrado que las mujeres pueden liderar avances tecnológicos vitales. Su compromiso con la resiliencia de las redes y la ciberseguridad ha influido en la estabilidad y confiabilidad de la comunicación en línea.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/radia-perlman.jpg",
+    "imageUrl": "https://www.uspto.gov/sites/default/files/govdelivery/perlman-2-edited_crop.jpg",
     "facts": {
       "yearOfBirth": "1951",
       "birthPlace": "Portsmouth, Estados Unidos",
@@ -207,7 +206,7 @@ export default [
     "name": "Shafi Goldwasser",
     "shortDescription": "Científica de la computación, ganadora del Premio Turing.",
     "description": "Es una destacada criptógrafa y científica de la computación que ha contribuido significativamente a la teoría de la computación y la seguridad de la información. Su trabajo en criptografía de probabilidad y complejidad computacional ha sentado las bases para la seguridad en línea y la privacidad de datos en un mundo cada vez más digitalizado. Goldwasser es un ejemplo de cómo la ciencia de la computación puede abordar desafíos contemporáneos y proteger la información en la era de la información.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shafi-goldwasser.jpg",
+    "imageUrl": "https://events.seas.upenn.edu/wp-content/uploads/2023/12/Shafi-Goldwasser-e1702588657339.jpg",
     "facts": {
       "yearOfBirth": "1958",
       "birthPlace": "Nueva York, Estados Unidos",
@@ -222,7 +221,7 @@ export default [
     "name": "Chien-Shiung Wu",
     "shortDescription": "Física experimental, contribuyó a la física nuclear.",
     "description": "Física experimental de origen chino, desafiando los prejuicios de género y nacionalidad, realizó experimentos fundamentales en física de partículas y contribuyó significativamente a la comprensión de la desintegración beta. Su famoso experimento \"Wu\" refutó la paridad en la física de partículas, lo que cambió la forma en que los científicos comprenden las fuerzas fundamentales de la naturaleza. Wu demostró que el talento y la perseverancia pueden superar cualquier barrera, y su legado sigue siendo un faro de inspiración para científicas en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/chien-shiung-wu.jpg",
+    "imageUrl": "https://todayinsci.com/W/Wu_ChienShiung/WuChienShiung300px.jpg",
     "facts": {
       "yearOfBirth": "1912",
       "yearOfDeath": "1997",
@@ -238,7 +237,7 @@ export default [
     "name": "Hedy Lamarr",
     "shortDescription": "Actriz e inventora, contribuyó al desarrollo de la tecnología de espectro ensanchado.",
     "description": "Actriz austroamericana y científica, fue una mente brillante en la intersección de la tecnología y el entretenimiento. Junto con el compositor George Antheil, inventó un sistema de comunicación secreta durante la Segunda Guerra Mundial que sentó las bases para la tecnología de espectro ensanchado y la comunicación inalámbrica moderna. Lamarr demostró que las mujeres pueden destacar tanto en el cine como en la ciencia, y su legado como inventora ha sido fundamental para el desarrollo de la tecnología de comunicación inalámbrica que usamos en la actualidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hedy-lamarr.jpg",
+    "imageUrl": "https://ep01.epimg.net/especiales/2018/mujeres-de-la-ciencia/img/grandes/hedy-lamarr.jpg",
     "facts": {
       "yearOfBirth": "1914",
       "yearOfDeath": "2000",
@@ -254,7 +253,7 @@ export default [
     "name": "Maria Goeppert Mayer",
     "shortDescription": "Física teórica, ganadora del Premio Nobel de Física.",
     "description": "Física teórica alemana-estadounidense, dejó una profunda huella en la física nuclear y la mecánica cuántica. Fue la segunda mujer en recibir el Premio Nobel de Física y su trabajo pionero en la estructura de capas nucleares revolucionó nuestra comprensión de los núcleos atómicos. A pesar de las barreras de género en la academia, su dedicación y talento la llevaron a contribuir significativamente a la teoría nuclear, abriendo el camino para futuras investigadoras en un campo dominado por hombres. Maria Goeppert Mayer es un ejemplo inspirador de excelencia científica y perseverancia en la búsqueda del conocimiento.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maria-goeppert-mayer.jpg",
+    "imageUrl": "https://www.gob.mx/cms/uploads/article/main_image/146495/Maria_Goeppert_Mayer5.jpg",
     "facts": {
       "yearOfBirth": "1906",
       "yearOfDeath": "1972",
@@ -270,7 +269,7 @@ export default [
     "name": "Lise Meitner",
     "shortDescription": "Física nuclear, contribuyó a la teoría de la fisión nuclear.",
     "description": "Física austriaca-sueca, dejó un legado imborrable en la física nuclear y la radioquímica. A pesar de enfrentar obstáculos de género en una era dominada por hombres, colaboró con Otto Hahn en el descubrimiento de la fisión nuclear, un avance revolucionario. Aunque no compartió el Premio Nobel por este logro, su contribución fue crucial para comprender la energía nuclear y la física de partículas. Su determinación y pasión por la ciencia han inspirado a generaciones de científicas. Lise Meitner es un símbolo perdurable de la perseverancia femenina y el impacto duradero que las mujeres pueden tener en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/lise-meitner.jpg",
+    "imageUrl": "https://alpoma.net/tecob/wp-content/meitner.jpg",
     "facts": {
       "yearOfBirth": "1878",
       "yearOfDeath": "1968",
@@ -286,7 +285,7 @@ export default [
     "name": "Sau Lan Wu",
     "shortDescription": "Física de partículas, contribuyó a experimentos clave en física de alta energía.",
     "description": "Física experimental sinoamericana, ha sido una fuerza motriz en la física de partículas. Destacó en experimentos en el CERN y lideró investigaciones cruciales, como el descubrimiento del quark c, que expandieron nuestro entendimiento de la estructura fundamental de la materia. Wu superó desafíos en una disciplina dominada por hombres y ha sido un faro de inspiración para científicas de todo el mundo. Sau Lan Wu es un ejemplo de excelencia científica y de cómo las mujeres pueden dejar huella en la investigación de vanguardia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sau-lan-wu.jpg",
+    "imageUrl": "https://meganmcclellanwx.wordpress.com/wp-content/uploads/2019/03/13695915095_09f6b18449_c.jpg",
     "facts": {
       "yearOfBirth": "1940",
       "birthPlace": "Hong Kong, China",
@@ -301,11 +300,11 @@ export default [
     "name": "Jocelyn Bell Burnell",
     "shortDescription": "Astrónoma y astrofísica, co-descubridora de los púlsares.",
     "description": "Astrofísica británica, es una figura extraordinaria en la ciencia. Durante su doctorado, hizo un descubrimiento revolucionario al detectar los primeros púlsares, estrellas de neutrones altamente magnetizadas que emiten pulsos regulares de radiación. A pesar de que su asesor recibió el Premio Nobel por este descubrimiento, Bell Burnell se ha convertido en un símbolo de perseverancia y contribución de las mujeres a la astronomía. Su carrera distinguida y su activismo en favor de la diversidad de género en la ciencia han inspirado a generaciones futuras de científicas. Jocelyn Bell Burnell es un ejemplo de valentía y excelencia científica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/jocelyn-bell-burnell.jpg",
+    "imageUrl": "https://e.rpp-noticias.io/xlarge/2018/09/10/431143_675460.jpg",
     "facts": {
       "yearOfBirth": "1943",
       "birthPlace": "Belfast, Reino Unido",
-      "mainField": "Astronomía, Astrofísica"
+      "mainField": "Astronomía, Astrofísica, Física"
     },
     "extraInfo": {
       "imageSource": "https://womeninscienceweadmire.icfo.eu/wiswa-2/jocelyn-bell/"
@@ -316,7 +315,7 @@ export default [
     "name": "Dorothy Crowfoot Hodgkin",
     "shortDescription": "Química, ganadora del Premio Nobel de Química.",
     "description": "Química británica, es una figura icónica en la ciencia que superó las barreras de género de su época. Su trabajo revolucionario en la cristalografía de rayos X permitió determinar la estructura de importantes biomoléculas, como la penicilina, la vitamina B12 y la insulina. Fue galardonada con el Premio Nobel de Química en 1964, siendo la tercera mujer en recibir este prestigioso reconocimiento. Hodgkin no solo fue una científica excepcional, sino también una defensora de la igualdad de género en la ciencia, allanando el camino para futuras generaciones de científicas y dejando un legado duradero en la investigación y la equidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/dorothy-crowfoot-hodgkin.jpg",
+    "imageUrl": "https://th.bing.com/th/id/OIG1.O7GjeOFH2XlHXVnE4Vxi?w=1024&h=1024&rs=1&pid=ImgDetMain",
     "facts": {
       "yearOfBirth": "1910",
       "yearOfDeath": "1994",
@@ -332,7 +331,7 @@ export default [
     "name": "Marie Curie",
     "shortDescription": "Física y química, ganadora de dos Premios Nobel.",
     "description": "física y química de origen polaco y nacionalizada francesa, es una de las figuras más icónicas en la historia de la ciencia. Ganadora de dos premios Nobel (Física en 1903 y Química en 1911), Curie realizó investigaciones fundamentales sobre la radiactividad y el descubrimiento de los elementos radio y polonio. Su dedicación y valentía en la investigación científica, a pesar de los desafíos de la discriminación de género y los riesgos de la radiación, la convierten en un modelo a seguir para científicas de todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marie-curie.jpg",
+    "imageUrl": "https://th.bing.com/th/id/OIG4.l2e2IzPcZ43Ian1pa2IV?w=1024&h=1024&rs=1&pid=ImgDetMain",
     "facts": {
       "yearOfBirth": "1867",
       "yearOfDeath": "1934",
@@ -348,7 +347,7 @@ export default [
     "name": "Marjory Stephenson",
     "shortDescription": "Microbióloga y bioquímica, investigó en enzimología.",
     "description": "Bioquímica británica, brilló como científica en una época en la que las mujeres enfrentaban obstáculos muy significativos en la investigación científica. Su trabajo pionero en microbiología, enzimología y bioquímica contribuyó al entendimiento de procesos fundamentales en la vida. Fue una de las primeras mujeres en ser elegida miembro de la Royal Society, un reconocimiento a su destacada contribución a la ciencia. Además, fue una mentora y defensora de las mujeres en la ciencia, inspirando y allanando el camino para futuras generaciones.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjory-stephenson.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/7/75/Marjory_Stephenson_1930s.jpg",
     "facts": {
       "yearOfBirth": "1885",
       "yearOfDeath": "1948",
@@ -364,7 +363,7 @@ export default [
     "name": "Rosalind Franklin",
     "shortDescription": "Química y cristalógrafa, contribuyó a la comprensión de la estructura del ADN.",
     "description": "Química y cristalógrafa británica, destacó en un campo dominado por hombres y su contribución a la ciencia es innegable. Sus investigaciones pioneras en la cristalografía de rayos X fueron fundamentales para revelar la estructura del ADN en forma de doble hélice, un hito crucial en la biología molecular. A pesar de que su trabajo inicial fue subestimado, su determinación y habilidad científica allanaron el camino para futuros avances en genética y biología. Franklin es un ejemplo inspirador de cómo las mujeres pueden sobresalir en la ciencia, dejando un legado duradero en la investigación y la igualdad de género.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/rosalind-franklin.jpg",
+    "imageUrl": "https://www.buscabiografias.com/img/people/Rosalind-Franklin.jpg",
     "facts": {
       "yearOfBirth": "1920",
       "yearOfDeath": "1958",
