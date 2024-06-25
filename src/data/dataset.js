@@ -4,16 +4,14 @@ export default [
     "name": "Ada Lovelace",
     "shortDescription": "Pionera en la programación, primera programadora de la historia.",
     "description": "Una visionaria matemática británica del siglo XIX, es aclamada como la primera programadora de la historia. Su colaboración con Charles Babbage en la creación de la Máquina Analítica la llevó a desarrollar algoritmos, incluyendo el famoso \"algoritmo de Bernoulli\", destinados a ser procesados por una máquina. Su visión pionera la convirtió en una figura fundamental en la informática y la inteligencia artificial. Lovelace demostró que las computadoras podían ir más allá de simples cálculos matemáticos, anticipando un mundo donde la programación sería esencial en la resolución de problemas complejos, dejando una huella imborrable en la ciencia y la tecnología.",
-    "imageUrl": "https://th.bing.com/th/id/OIG2.0ZM9XJvnSoMxH5_HSPe5?pid=ImgGn",
+    "imageUrl": "https://th.bing.com/th/id/OIG2.0ZM9XJvnSoMxH5_HSPe5?",
     "facts": {
       "yearOfBirth": "1815",
       "yearOfDeath": "1852",
       "birthPlace": "Londres, Reino Unido",
       "mainField": "Ciencia de la Computación"
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/genera-una-imagen-de-ada-lovelace2c-la-primera-prog/650a1eff8ff04b88833d5cdef0309441"
-    }
+   
   },
   {
     "id": "emmy-noether",
@@ -27,24 +25,18 @@ export default [
       "birthPlace": "Erlangen, Alemania",
       "mainField": "Matemáticas"
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-an-image-of-of-a-german-woman2c-a-pioneering/6510ddb1e8254b928b8f8f1d5e95fea4"
-    }
   },
   {
     "id": "hypatia-de-alejandria",
     "name": "Hypatia de Alejandría",
     "shortDescription": "Matemática y filósofa en la antigua Alejandría.",
     "description": "Filósofa y matemática en la antigua Alejandría, desafió las normas de género de su época al destacar en una sociedad dominada por hombres. Su legado incluye importantes contribuciones a la geometría y la astronomía, así como su destacado papel como maestra y defensora del conocimiento en una época de agitación política. Hypatia demostró que las mujeres podían sobresalir en campos intelectuales y su valentía al mantener sus creencias filosóficas la convierte en un símbolo de resistencia y sabiduría en la historia de la ciencia.",
-    "imageUrl": "https://th.bing.com/th/id/OIG1.cJIBrDrYJvUF.VOfuaDd?w=1024&h=1024&rs=1&pid=ImgDetMain",
+    "imageUrl": "https://th.bing.com/th/id/OIG1.cJIBrDrYJvUF.VOfuaDd?",
     "facts": {
       "yearOfBirth": "circa 360",
       "yearOfDeath": "415",
       "birthPlace": "Alejandría, Egipto",
-      "mainField": "Matemáticas, Filosofía"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-a-vivid-digital-artwork-or-painting-that-de/6510df0ebe1a4807af22175452761e1a"
+      "mainField": ["Matemáticas", "Filosofía"]
     }
   },
   {
@@ -52,16 +44,13 @@ export default [
     "name": "Marjorie Lee Browne",
     "shortDescription": "Matemática, contribuyó a la teoría de números.",
     "description": "Matemática estadounidense, destacó en una época en la que las mujeres afroamericanas enfrentaban múltiples barreras en la educación superior. No solo obtuvo su doctorado en matemáticas, sino que también se convirtió en una destacada educadora, promoviendo la diversidad en las ciencias matemáticas y desafiando la discriminación racial y de género. Su compromiso con la educación y su capacidad para inspirar a futuras generaciones la convierten en un modelo a seguir para las mujeres en la ciencia, dejando una huella perdurable en la historia académica.",
-    "imageUrl": "https://th.bing.com/th/id/OIG1.uNb7uipgT7cH4UqUThOl?w=1024&h=1024&rs=1&pid=ImgDetMain",
+    "imageUrl": "https://th.bing.com/th/id/OIG1.uNb7uipgT7cH4UqUThOl?",
     "facts": {
       "yearOfBirth": "1914",
       "yearOfDeath": "1979",
       "birthPlace": "Memphis, Estados Unidos",
       "mainField": "Matemáticas"
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/design-an-inspiring-and-historically-accurate-imag/6510df7e7bb745f69d67f695441607a8"
-    }
   },
   {
     "id": "shakuntala-devi",
@@ -75,40 +64,31 @@ export default [
       "birthPlace": "Bangalore, India",
       "mainField": "Matemáticas"
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
-    }
   },
   {
     "id": "sofia-kovalevskaya",
     "name": "Sofia Kovalevskaya",
     "shortDescription": "Matemática y escritora, contribuyó a la teoría de funciones.",
     "description": "Matemática rusa del siglo XIX, dejó una marca indeleble en la ciencia del siglo XIX al desafiar las barreras de género. Como matemática rusa, superó las restricciones sociales de su época para convertirse en la primera mujer en obtener un doctorado en matemáticas en Europa. Sus contribuciones a la teoría de las ecuaciones diferenciales y la mecánica revolucionaron la disciplina, abriendo nuevas perspectivas en el análisis matemático. Su destacada membresía en la Academia de Ciencias de Suecia marcó un hito en la historia de las mujeres en la ciencia.",
-    "imageUrl": "https://th.bing.com/th/id/OIG4.gEsjmMt1in1ojPGj95e8?w=1024&h=1024&rs=1&pid=ImgDetMain",
+    "imageUrl": "https://th.bing.com/th/id/OIG4.gEsjmMt1in1ojPGj95e8?",
     "facts": {
       "yearOfBirth": "1850",
       "yearOfDeath": "1891",
       "birthPlace": "Moscú, Rusia",
       "mainField": "Matemáticas"
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
-    }
   },
   {
     "id": "yoko-shimomura",
     "name": "Yoko Shimomura",
     "shortDescription": "Compositora de música, destacada en la industria de los videojuegos.",
     "description": "Compositora japonesa, es una figura destacada en la ciencia de la música y el arte sonoro. Aunque no se dedica a la ciencia en el sentido tradicional, su trabajo en la composición musical ha requerido un profundo entendimiento de la teoría musical y la tecnología de audio. Ha contribuido de manera significativa a la industria de los videojuegos, componiendo icónicas bandas sonoras que han enriquecido la experiencia de juego. Su éxito en un campo donde las mujeres estaban subrepresentadas la convierte en un modelo a seguir, incluso en campos no convencionales como la composición musical.",
-    "imageUrl": "https://th.bing.com/th/id/OIG3.tdI1vIv9Ek6kIwFFjDGg?w=1024&h=1024&rs=1&pid=ImgDetMain",
+    "imageUrl": "https://th.bing.com/th/id/OIG3.tdI1vIv9Ek6kIwFFjDGg?",
     "facts": {
       "yearOfBirth": "1967",
       "birthPlace": "Hyogo, Japón",
       "mainField": "Composición Musical, Video Juegos"
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/yoko-shimomura-making-music-for-a-video-game-in-19/6510e40dd1eb45d0906e8c1f4bb601d3"
-    }
   },
   {
     "id": "maryam-mirzakhani",
@@ -122,9 +102,6 @@ export default [
       "birthPlace": "Teherán, Irán",
       "mainField": "Matemáticas"
     },
-    "extraInfo": {
-      "imageSource": "https://chalkdustmagazine.com/features/mathematics-maryam-mirzakhani/"
-    }
   },
   {
     "id": "adele-goldberg",
@@ -137,9 +114,6 @@ export default [
       "birthPlace": "Chicago, Estados Unidos",
       "mainField": "Ciencias de la Computación"
     },
-    "extraInfo": {
-      "imageSource": "https://pionerasinformaticas.ujaen.es/en/computer-women-pioneers/adele-goldberg-en"
-    }
   },
   {
     "id": "barbara-liskov",
@@ -152,9 +126,6 @@ export default [
       "birthPlace": "Los Angeles, Estados Unidos",
       "mainField": "Ciencia de la Computación"
     },
-    "extraInfo": {
-      "imageSource": "https://medium.com/a-computer-of-ones-own/barbara-liskov-inventor-of-abstract-data-types-9f8908fdcf86"
-    }
   },
   {
     "id": "grace-hopper",
@@ -168,9 +139,6 @@ export default [
       "birthPlace": "Nueva York, Estados Unidos",
       "mainField": "Ciencia de la Computación"
     },
-    "extraInfo": {
-      "imageSource": "https://photos.com/featured/grace-hopper-with-early-computer-bettmann.html"
-    }
   },
   {
     "id": "margaret-hamilton",
@@ -183,9 +151,6 @@ export default [
       "birthPlace": "Paoli, Indiana, Estados Unidos",
       "mainField": "Ciencia de la Computación"
     },
-    "extraInfo": {
-      "imageSource": "https://odetta.ai/blogs/margaret-hamilton-the-first-software-engineer"
-    }
   },
   {
     "id": "radia-perlman",
@@ -198,9 +163,6 @@ export default [
       "birthPlace": "Portsmouth, Estados Unidos",
       "mainField": "Ciencia de la Computación"
     },
-    "extraInfo": {
-      "imageSource": "https://hackaday.com/2018/05/29/spanning-the-tree-dr-radia-perlman-untangling-networks/"
-    }
   },
   {
     "id": "shafi-goldwasser",
@@ -213,9 +175,6 @@ export default [
       "birthPlace": "Nueva York, Estados Unidos",
       "mainField": "Ciencia de la Computación"
     },
-    "extraInfo": {
-      "imageSource": "https://www.jahresbericht2019.unibe.ch/successes_2019/einstein_lectures/index_eng.html"
-    }
   },
   {
     "id": "chien-shiung-wu",
@@ -229,9 +188,6 @@ export default [
       "birthPlace": "Liuhe, Taicang, China",
       "mainField": "Física"
     },
-    "extraInfo": {
-      "imageSource": "https://www.thoughtco.com/chien-shiung-wu-biography-3530366"
-    }
   },
   {
     "id": "hedy-lamarr",
@@ -245,9 +201,6 @@ export default [
       "birthPlace": "Viena, Austria",
       "mainField": "Actuación, Física"
     },
-    "extraInfo": {
-      "imageSource": "https://www.sparkfun.com/news/6147"
-    }
   },
   {
     "id": "maria-goeppert-mayer",
@@ -261,9 +214,6 @@ export default [
       "birthPlace": "Kattowitz, Alemania",
       "mainField": "Física"
     },
-    "extraInfo": {
-      "imageSource": "https://www.wsemexhibit.org/maria-goeppert-mayer.html"
-    }
   },
   {
     "id": "lise-meitner",
@@ -277,9 +227,6 @@ export default [
       "birthPlace": "Viena, Austria",
       "mainField": "Física"
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/lise-meitner-in-nuclear-physics-lab-in-19502c-retro/651196e6bbcb4009950e9955c2199760"
-    }
   },
   {
     "id": "sau-lan-wu",
@@ -292,9 +239,6 @@ export default [
       "birthPlace": "Hong Kong, China",
       "mainField": "Física de Partículas"
     },
-    "extraInfo": {
-      "imageSource": "https://repository.aip.org/islandora/object/nbla%3A315195"
-    }
   },
   {
     "id": "jocelyn-bell-burnell",
@@ -307,9 +251,6 @@ export default [
       "birthPlace": "Belfast, Reino Unido",
       "mainField": "Astronomía, Astrofísica"
     },
-    "extraInfo": {
-      "imageSource": "https://womeninscienceweadmire.icfo.eu/wiswa-2/jocelyn-bell/"
-    }
   },
   {
     "id": "dorothy-crowfoot-hodgkin",
@@ -323,9 +264,6 @@ export default [
       "birthPlace": "El Cairo, Egipto / Shipston-on-Stour, Reino Unido",
       "mainField": "Química"
     },
-    "extraInfo": {
-      "imageSource": "https://www.some.ox.ac.uk/news/jan-royall-why-we-must-champion-dorothy-hodgkin-for-the-50-note/"
-    }
   },
   {
     "id": "marie-curie",
@@ -339,9 +277,6 @@ export default [
       "birthPlace": "Varsovia, Polonia",
       "mainField": "Física y Química"
     },
-    "extraInfo": {
-      "imageSource": "https://www.historyextra.com/period/first-world-war/life-of-the-week-marie-curie/"
-    }
   },
   {
     "id": "marjory-stephenson",
@@ -355,24 +290,6 @@ export default [
       "birthPlace": "Londres, Reino Unido",
       "mainField": "Química, Microbiología, Bioquímica"
     },
-    "extraInfo": {
-      "imageSource": "https://microbiologysociety.org/grants-prizes/all-prizes-and-competitions-/prize-lectures/marjory-stephenson-prize-lecture/marjory-stephenson-a-short-history.html"
-    }
-  },
-  {
-    "id": "rosalind-franklin",
-    "name": "Rosalind Franklin",
-    "shortDescription": "Química y cristalógrafa, contribuyó a la comprensión de la estructura del ADN.",
-    "description": "Química y cristalógrafa británica, destacó en un campo dominado por hombres y su contribución a la ciencia es innegable. Sus investigaciones pioneras en la cristalografía de rayos X fueron fundamentales para revelar la estructura del ADN en forma de doble hélice, un hito crucial en la biología molecular. A pesar de que su trabajo inicial fue subestimado, su determinación y habilidad científica allanaron el camino para futuros avances en genética y biología. Franklin es un ejemplo inspirador de cómo las mujeres pueden sobresalir en la ciencia, dejando un legado duradero en la investigación y la igualdad de género.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/rosalind-franklin.jpg",
-    "facts": {
-      "yearOfBirth": "1920",
-      "yearOfDeath": "1958",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Cristalografía"
-    },
-    "extraInfo": {
-      "imageSource": ""
-    }
   }
+ 
 ];
