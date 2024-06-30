@@ -121,6 +121,7 @@ export default [
     "shortDescription": "Científica de la computación, pionera en programación orientada a objetos.",
     "description": "Pionera de la informática, es conocida por su trabajo en la programación y la arquitectura de sistemas distribuidos. Fue la primera mujer en obtener un doctorado en ciencias de la computación en el Instituto de Tecnología de Stanford y desarrolló el lenguaje de programación CLU, que estableció fundamentos para la programación orientada a objetos. Liskov ha dejado una marca indeleble en la industria de la tecnología al liderar avances en sistemas de almacenamiento y seguridad informática. Su enfoque en la fiabilidad y la robustez ha influido en el diseño de sistemas críticos en todo el mundo.",
     "imageUrl": "https://cdn.britannica.com/86/129086-004-A93A7277/Barbara-Liskov-Turing-Award-2008.jpg.",
+    "facts": {
       "yearOfBirth": "1939",
       "birthPlace": "Los Angeles, Estados Unidos",
       "mainField": "Ciencia de la Computación"
