@@ -62,10 +62,11 @@ header h1 {
 .card p {
     width: 100%;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 .card p img {
     height: 100px;
+    width: 100px;
 }
                  
 footer {

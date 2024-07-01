@@ -23,7 +23,7 @@ export const renderCard = (card) => {  //creando la constante para importarla en
     
 
     const infoDiv = document.createElement("div"); //creando el div
-    infoDiv.innerHTML = info; //indicandole al ul que contendra el bloque html de la tarjeta
+    infoDiv.innerHTML = info; //indicandole al div que contendra el bloque html de la imagen
     div.appendChild(infoDiv);
 
     div.appendChild(ul); //pegandole un hijo al div, asignandlo ul como hijo al div
