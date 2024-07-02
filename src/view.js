@@ -27,8 +27,8 @@ export const renderItems = (data,filterBy=null,orderBy='asc') => {
   let cards = "";
   for (let i = 0; i < filtered.length; i++) {
 
-      const card = renderCard(filtered[i]);
-      cards += card.outerHTML;
+    const card = renderCard(filtered[i]);
+    cards += card.outerHTML;
   }
 
   return cards;
