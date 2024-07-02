@@ -1,6 +1,6 @@
 import { renderCard } from './card.js'; //importa view
 
-export const renderItems = (data,filterBy=null,orderBy='asc') => {
+export const renderItems = (data,filterBy=null,orderDir='asc') => {
 
   const filtered = [];// array que contendra datos filtrados
 
@@ -14,7 +14,7 @@ export const renderItems = (data,filterBy=null,orderBy='asc') => {
   }
 
   // ordenar por nombre
-  if( orderBy === 'desc'){
+  if( orderDir === 'desc'){
     // ordenar descendiente
     filtered.sort((a,b)=>b.name.localeCompare(a.name));
   }

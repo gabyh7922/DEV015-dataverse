@@ -237,7 +237,7 @@ export default [
     "facts": {
       "yearOfBirth": "1940",
       "birthPlace": "Hong Kong, China",
-      "mainField": ["Físicas"]
+      "mainField": ["Física"]
     },
   },
   {
@@ -292,16 +292,16 @@ export default [
     },
   },
   {
-    "id": "cambiar-esta",
-    "name": "Nombre por cambiar",
-    "shortDescription": "short descripcion por cambiar.",
-    "description": "Descripcion por cambiar",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/7/75/Marjory_Stephenson_1930s.jpg",
+    "id": "barbara-mcclintock",
+    "name": "Barbara McClintock",
+    "shortDescription": "Descubrió los elementos transponibles.",
+    "description": "Fue una genetista que descubrió los elementos transponibles, también conocidos como genes saltarines, que son segmentos de ADN que pueden moverse a diferentes posiciones dentro del genoma de una célula. Recibió el Premio Nobel de Fisiología o Medicina en 1983.",
+    "imageUrl": "https://cdn.britannica.com/62/194762-050-59387496/Barbara-McClintock-1947.jpg",
     "facts": {
-      "yearOfBirth": "1881",
-      "yearOfDeath": "1948",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": ["Química", "Microbiología", "Bioquímica"]
+      "yearOfBirth": "1902",
+      "yearOfDeath": "1992",
+      "birthPlace": "Hartford, EE.UU.",
+      "mainField": ["Química"]
     },
   }
 ];
