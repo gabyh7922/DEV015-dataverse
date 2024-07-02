@@ -9,7 +9,7 @@ export default [
       "yearOfBirth": "1815",
       "yearOfDeath": "1852",
       "birthPlace": "Londres, Reino Unido",
-      "mainField": "Ciencia de la Computación"
+      "mainField": ["Ciencia de la Computación"]
     },
    
   },
@@ -23,7 +23,7 @@ export default [
       "yearOfBirth": "1882",
       "yearOfDeath": "1935",
       "birthPlace": "Erlangen, Alemania",
-      "mainField": "Matemáticas"
+      "mainField": ["Matemáticas"]
     },
   },
   {
@@ -49,7 +49,7 @@ export default [
       "yearOfBirth": "1914",
       "yearOfDeath": "1979",
       "birthPlace": "Memphis, Estados Unidos",
-      "mainField": "Matemáticas"
+      "mainField": ["Matemáticas"]
     },
   },
   {
@@ -62,7 +62,7 @@ export default [
       "yearOfBirth": "1929",
       "yearOfDeath": "2013",
       "birthPlace": "Bangalore, India",
-      "mainField": "Matemáticas"
+      "mainField": ["Matemáticas"]
     },
   },
   {
@@ -75,7 +75,7 @@ export default [
       "yearOfBirth": "1850",
       "yearOfDeath": "1891",
       "birthPlace": "Moscú, Rusia",
-      "mainField": "Matemáticas"
+      "mainField": ["Matemáticas"]
     },
   },
   {
@@ -87,7 +87,7 @@ export default [
     "facts": {
       "yearOfBirth": "1967",
       "birthPlace": "Hyogo, Japón",
-      "mainField": "Composición Musical, Video Juegos"
+      "mainField": ["Composición Musical", "Video Juegos"]
     },
   },
   {
@@ -100,7 +100,7 @@ export default [
       "yearOfBirth": "1977",
       "yearOfDeath": "2017",
       "birthPlace": "Teherán, Irán",
-      "mainField": "Matemáticas"
+      "mainField": ["Matemáticas"]
     },
   },
   {
@@ -112,7 +112,7 @@ export default [
     "facts": {
       "yearOfBirth": "1945",
       "birthPlace": "Chicago, Estados Unidos",
-      "mainField": "Ciencias de la Computación"
+      "mainField": ["Ciencias de la Computación"]
     },
   },
   {
@@ -120,11 +120,11 @@ export default [
     "name": "Barbara Liskov",
     "shortDescription": "Científica de la computación, pionera en programación orientada a objetos.",
     "description": "Pionera de la informática, es conocida por su trabajo en la programación y la arquitectura de sistemas distribuidos. Fue la primera mujer en obtener un doctorado en ciencias de la computación en el Instituto de Tecnología de Stanford y desarrolló el lenguaje de programación CLU, que estableció fundamentos para la programación orientada a objetos. Liskov ha dejado una marca indeleble en la industria de la tecnología al liderar avances en sistemas de almacenamiento y seguridad informática. Su enfoque en la fiabilidad y la robustez ha influido en el diseño de sistemas críticos en todo el mundo.",
-    "imageUrl": "https://cdn.britannica.com/86/129086-004-A93A7277/Barbara-Liskov-Turing-Award-2008.jpg.",
+    "imageUrl": "https://cdn.britannica.com/86/129086-004-A93A7277/Barbara-Liskov-Turing-Award-2008.jpg",
     "facts": {
       "yearOfBirth": "1939",
       "birthPlace": "Los Angeles, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "mainField": ["Ciencia de la Computación"]
     },
   },
   {
@@ -137,7 +137,7 @@ export default [
       "yearOfBirth": "1906",
       "yearOfDeath": "1992",
       "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "mainField": ["Ciencia de la Computación"]
     },
   },
   {
@@ -149,7 +149,7 @@ export default [
     "facts": {
       "yearOfBirth": "1936",
       "birthPlace": "Paoli, Indiana, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "mainField": ["Ciencia de la Computación"]
     },
   },
   {
@@ -161,7 +161,7 @@ export default [
     "facts": {
       "yearOfBirth": "1951",
       "birthPlace": "Portsmouth, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "mainField": ["Ciencia de la Computación"]
     },
   },
   {
@@ -173,7 +173,7 @@ export default [
     "facts": {
       "yearOfBirth": "1958",
       "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "mainField": ["Ciencia de la Computación"]
     },
   },
   {
@@ -186,7 +186,7 @@ export default [
       "yearOfBirth": "1912",
       "yearOfDeath": "1997",
       "birthPlace": "Liuhe, Taicang, China",
-      "mainField": "Física"
+      "mainField": ["Física"]
     },
   },
   {
@@ -199,7 +199,7 @@ export default [
       "yearOfBirth": "1914",
       "yearOfDeath": "2000",
       "birthPlace": "Viena, Austria",
-      "mainField": "Actuación, Física"
+      "mainField": ["Actuación", "Física"]
     },
   },
   {
@@ -212,7 +212,7 @@ export default [
       "yearOfBirth": "1906",
       "yearOfDeath": "1972",
       "birthPlace": "Kattowitz, Alemania",
-      "mainField": "Física"
+      "mainField": ["Física"]
     },
   },
   {
@@ -225,7 +225,7 @@ export default [
       "yearOfBirth": "1878",
       "yearOfDeath": "1968",
       "birthPlace": "Viena, Austria",
-      "mainField": "Física"
+      "mainField": ["Física"]
     },
   },
   {
@@ -237,7 +237,7 @@ export default [
     "facts": {
       "yearOfBirth": "1940",
       "birthPlace": "Hong Kong, China",
-      "mainField": "Física de Partículas"
+      "mainField": ["Físicas"]
     },
   },
   {
@@ -249,7 +249,7 @@ export default [
     "facts": {
       "yearOfBirth": "1943",
       "birthPlace": "Belfast, Reino Unido",
-      "mainField": "Astronomía, Astrofísica, Física"
+      "mainField": ["Astronomía", "Astrofísica", "Física"]
     },
   },
   {
@@ -262,7 +262,7 @@ export default [
       "yearOfBirth": "1910",
       "yearOfDeath": "1994",
       "birthPlace": "El Cairo, Egipto / Shipston-on-Stour, Reino Unido",
-      "mainField": "Química"
+      "mainField": ["Química"]
     },
   },
   {
@@ -275,7 +275,7 @@ export default [
       "yearOfBirth": "1867",
       "yearOfDeath": "1934",
       "birthPlace": "Varsovia, Polonia",
-      "mainField": "Física y Química"
+      "mainField": ["Física","Química"]
     },
   },
   {
@@ -288,7 +288,20 @@ export default [
       "yearOfBirth": "1885",
       "yearOfDeath": "1948",
       "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Microbiología, Bioquímica"
+      "mainField": ["Química", "Microbiología", "Bioquímica"]
+    },
+  },
+  {
+    "id": "cambiar-esta",
+    "name": "Nombre por cambiar",
+    "shortDescription": "short descripcion por cambiar.",
+    "description": "Descripcion por cambiar",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/7/75/Marjory_Stephenson_1930s.jpg",
+    "facts": {
+      "yearOfBirth": "1881",
+      "yearOfDeath": "1948",
+      "birthPlace": "Londres, Reino Unido",
+      "mainField": ["Química", "Microbiología", "Bioquímica"]
     },
   }
 ];
