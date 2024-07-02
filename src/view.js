@@ -1,8 +1,6 @@
 import { renderCard } from './card.js'; //importa view
 
 export const renderItems = (data,filterBy=null,orderBy='asc') => {
-  
-  const root = document.querySelector("#root"); //constante que selecciona el div
 
   const filtered = [];// array que contendra datos filtrados
 
@@ -26,10 +24,13 @@ export const renderItems = (data,filterBy=null,orderBy='asc') => {
   }
 
   // imprimir tarjetas
+  let cards = "";
   for (let i = 0; i < filtered.length; i++) {
 
       const card = renderCard(filtered[i]);
-      root.appendChild(card);
+      cards += card.outerHTML;
   }
+
+  return cards;
 }
 
