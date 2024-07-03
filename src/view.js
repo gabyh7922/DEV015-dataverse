@@ -1,6 +1,6 @@
 import { renderCard } from './card.js'; //importa view
 
-export const renderItems = (data,filterBy=null,orderDir='asc') => {
+export const renderItems = (data,filterBy='',orderDir='asc') => {
 
   const filtered = [];// array que contendra datos filtrados
 
@@ -8,7 +8,7 @@ export const renderItems = (data,filterBy=null,orderDir='asc') => {
   for (let i = 0; i < data.length; i++) {
   
     const cardData = data[i];
-    if( (filterBy !== null && cardData['facts']['mainField'].includes(filterBy)) || filterBy === null){
+    if( (filterBy !== '' && cardData['facts']['mainField'].includes(filterBy)) || filterBy === ''){
       filtered.push(cardData);
     }
   }

@@ -9,7 +9,7 @@ export default [
       "yearOfBirth": "1815",
       "yearOfDeath": "1852",
       "birthPlace": "Londres, Reino Unido",
-      "mainField": ["Ciencia de la Computación"]
+      "mainField": ["Ciencias de la Computación"]
     },
    
   },
@@ -124,7 +124,7 @@ export default [
     "facts": {
       "yearOfBirth": "1939",
       "birthPlace": "Los Angeles, Estados Unidos",
-      "mainField": ["Ciencia de la Computación"]
+      "mainField": ["Ciencias de la Computación"]
     },
   },
   {
@@ -137,7 +137,7 @@ export default [
       "yearOfBirth": "1906",
       "yearOfDeath": "1992",
       "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": ["Ciencia de la Computación"]
+      "mainField": ["Ciencias de la Computación"]
     },
   },
   {
@@ -149,7 +149,7 @@ export default [
     "facts": {
       "yearOfBirth": "1936",
       "birthPlace": "Paoli, Indiana, Estados Unidos",
-      "mainField": ["Ciencia de la Computación"]
+      "mainField": ["Ciencias de la Computación"]
     },
   },
   {
@@ -161,7 +161,7 @@ export default [
     "facts": {
       "yearOfBirth": "1951",
       "birthPlace": "Portsmouth, Estados Unidos",
-      "mainField": ["Ciencia de la Computación"]
+      "mainField": ["Ciencias de la Computación"]
     },
   },
   {
@@ -173,7 +173,7 @@ export default [
     "facts": {
       "yearOfBirth": "1958",
       "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": ["Ciencia de la Computación"]
+      "mainField": ["Ciencias de la Computación"]
     },
   },
   {
