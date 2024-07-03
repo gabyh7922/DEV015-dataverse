@@ -9,9 +9,9 @@ export function renderCategories(selectBox) {
   
     const cardData = data[i];
     for(const category of cardData['facts']['mainField']){
-        if(!uniqueCategories.includes(category)){
-          uniqueCategories.push(category);
-        }
+      if(!uniqueCategories.includes(category)){
+        uniqueCategories.push(category);
+      }
     }
   }
 
@@ -22,11 +22,11 @@ export function renderCategories(selectBox) {
   selectBox.add(defaultOption);
 
   // rellenar el selectBox con opciones de categorias unicas que construimos en arriba
-    for(const uniqueCat of uniqueCategories){
-      const option = document.createElement("option");
-      option.value = uniqueCat;
-      option.text = uniqueCat;
-      selectBox.add(option);
-    }
-
+  for(const uniqueCat of uniqueCategories){
+    const option = document.createElement("option");
+    option.value = uniqueCat;
+    option.text = uniqueCat;
+    selectBox.add(option);
   }
+
+}

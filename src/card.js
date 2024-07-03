@@ -10,16 +10,16 @@ export const renderCard = (card) => {  //creando la constante para importarla en
   // revisamos si tiene fecha de la muerte. porque no todos tienen este dato
   const yearOfDeath = card['facts']['yearOfDeath'] ? card['facts']['yearOfDeath'] : '-';
   const datos = `
-    <li itemprop="name">Nombre: ${card['name']}</li>
-    <li itemprop="shortDescription">Description: ${card['shortDescription']}</li>
-    <li itemprop="yearOfBirth">Año de Nacimiento: ${card['facts']['yearOfBirth']}</li>
-    <li itemprop="yearOfDeath">Fecha de Muerte: ${yearOfDeath}</li>
-    <li itemprop="birthPlace">Lugar de Nacimiento: ${card['facts']['birthPlace']}</li>
-    <li itemprop="mainField">Especialida: ${card['facts']['mainField']}</li>
+    <li itemtype="name">Nombre: ${card['name']}</li>
+    <li itemtype="shortDescription">Description: ${card['shortDescription']}</li>
+    <li itemtype="yearOfBirth">Año de Nacimiento: ${card['facts']['yearOfBirth']}</li>
+    <li itemtype="yearOfDeath">Fecha de Muerte: ${yearOfDeath}</li>
+    <li itemtype="birthPlace">Lugar de Nacimiento: ${card['facts']['birthPlace']}</li>
+    <li itemtype="mainField">Especialida: ${card['facts']['mainField']}</li>
 `;//creando tarjeta que contiene informacion, debe ser trabajada en css
 
   const info = `
-<p itemprop="imageUrl"><img src="${card['imageUrl']}" /></p>
+<p itemtype="imageUrl"><img src="${card['imageUrl']}" /></p>
     `;
 
   ul.innerHTML = datos; //indicandole al ul que contendra el bloque html de la tarjeta

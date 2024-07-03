@@ -13,15 +13,15 @@ const selectBoxOrder = document.querySelector('select[name="orderDir"]');
 renderCategories(selectBoxCategory);
 
 // agregar event listener de on Change para el select box de categorias
-selectBoxCategory.addEventListener('change',function(event){
-    const orderDir = selectBoxOrder.value;
-    root.innerHTML = renderItems(data,this.value,orderDir);
+selectBoxCategory.addEventListener('change',function(){
+  const orderDir = selectBoxOrder.value;
+  root.innerHTML = renderItems(data,this.value,orderDir);
 });
 
 // agregar event listener de on Change para el select box de ordenar
-selectBoxOrder.addEventListener('change',function(event){
-    const currentCategory = selectBoxCategory.value;
-    root.innerHTML = renderItems(data,currentCategory,this.value);
+selectBoxOrder.addEventListener('change',function(){
+  const currentCategory = selectBoxCategory.value;
+  root.innerHTML = renderItems(data,currentCategory,this.value);
 });
 
  
