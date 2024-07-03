@@ -7,11 +7,13 @@ export const renderCard = (card) => {  //creando la constante para importarla en
 
   const ul = document.createElement("ul"); //creando el ul
 
+  // revisamos si tiene fecha de la muerte. porque no todos tienen este dato
+  const yearOfDeath = card['facts']['yearOfDeath'] ? card['facts']['yearOfDeath'] : '-';
   const datos = `
     <li itemprop="name">Nombre: ${card['name']}</li>
     <li itemprop="shortDescription">Description: ${card['shortDescription']}</li>
     <li itemprop="yearOfBirth">Año de Nacimiento: ${card['facts']['yearOfBirth']}</li>
-    <li itemprop="yearOfDeath">Fecha de Muerte: ${card['facts']['yearOfDeath']}</li>
+    <li itemprop="yearOfDeath">Fecha de Muerte: ${yearOfDeath}</li>
     <li itemprop="birthPlace">Lugar de Nacimiento: ${card['facts']['birthPlace']}</li>
     <li itemprop="mainField">Especialida: ${card['facts']['mainField']}</li>
 `;//creando tarjeta que contiene informacion, debe ser trabajada en css

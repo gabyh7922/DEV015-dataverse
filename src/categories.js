@@ -1,6 +1,6 @@
 import data from './data/dataset.js'; //importa data
 
-export const renderCategories = () => {
+export function renderCategories(selectBox) {
   
   const uniqueCategories = [];// array que contendra categorias unicas
 
@@ -14,17 +14,14 @@ export const renderCategories = () => {
         }
     }
   }
-  
-  //constante que selecciona el select de categorias
-  const selectBox = document.querySelector('select[name="mainField"]');
 
   // agregando la primera opcion
-  const option = document.createElement("option");
-  option.value = '';
-  option.text = "- Filtrar por Categoría -";
-  selectBox.add(option);
+  const defaultOption = document.createElement("option");
+  defaultOption.value = '';
+  defaultOption.text = "- Filtrar por Categoría -";
+  selectBox.add(defaultOption);
 
-  // rellenar el selectBox con opciones de categorias unicas
+  // rellenar el selectBox con opciones de categorias unicas que construimos en arriba
     for(const uniqueCat of uniqueCategories){
       const option = document.createElement("option");
       option.value = uniqueCat;
