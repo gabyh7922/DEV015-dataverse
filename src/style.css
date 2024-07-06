@@ -2,44 +2,58 @@
     padding: 0px; 
     margin: 0px; 
     box-sizing: border-box;
-} 
-
-body {
+    
+  } 
+  
+  body {
     font-family: Arial, sans-serif; /* Define la fuente */
-    background-color: #413a3aa9; /* Color de fondo suave */
+    background-color: #24012ca9; /* Color de fondo suave */
     padding: 20px; 
     border: 0px;
     margin: 0px;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    
   }
-
-header {
-    background-color: #600e70; /* Color de fondo del header */
+  
+  header {
+    background-color: #741188; /* Color de fondo del header */
     margin: bottom 20xp; ;
     text-align: center; /* Centra el contenido del header */
   }
   
-header h1 {
+  header h1 {
     margin: 30px; /* Espacio superior */
     color: white; /* Color del texto */
     font-size: 2em; /* Tamaño de fuente */
   }
   
-#root {
+  #root {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
-}
-
-.card {
+  }
+  #percentage{
+      background-color: #741188;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center; 
+      margin: 10px; /* Espacio superior */
+    
+  }
+  #porcentage.h1{
+    
+  }
+  
+  .card {
      margin: 10px;
      border: 2px solid #ddd; /* Borde de la tarjeta */
-     border-radius: 5px; /* Bordes redondeados */
+     border-radius: 0 30px 0 30px; /* Bordes redondeados */
      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
-     background-color: #f1f1f1; /* Color de fondo de las tarjetas */
+     background-color: #cd7bd7; /* Color de fondo de las tarjetas */
      padding: 20px;
      text-align: left;
      flex: 1 0 calc(25% - 40px); /* Cada tarjeta ocupará un 40% del ancho del contenedor, menos el espacio del gap */
@@ -48,44 +62,48 @@ header h1 {
      flex-direction: column;
   }
    
-/* Estilo para la lista dentro de la tarjeta */
-.card ul {
+  /* Estilo para la lista dentro de la tarjeta */
+  .card ul {
     list-style-type: none; /* Elimina los puntos de la lista */
     padding: 0; /* Elimina el padding */
     font-size: 1em;
     width: 100%
-}
-.card li {
+  }
+  .card li {
         margin-bottom: 10px; /* Espaciado inferior entre ítems */
         display: flex;
-} 
-.card p {
+        color: rgb(15, 17, 18);
+        text-shadow: 2px 2px 5px rgb(230, 215, 215);
+  } 
+  .card p {
     width: 100%;
     text-align: center;
     margin-bottom: 15px;
-}
-.card p img {
-    height: 100px;
-    width: 100px;
-}
+  }
+  .card p img {
+    height: 200px;
+    width: 250px;
+    object-fit: cover;
+  }
                  
-footer {
+  footer {
     max-width: 100%;
     background-color: #600e70;
     padding: 20px;
     bottom: 0%;
     text-align: center;
-}
-@media (max-width: 900px) {
+    color: aliceblue;
+  }
+  @media (max-width: 900px) {
     .card {
         flex: 1 1 calc(50% - 40px); /* 50% del ancho menos el espacio del gap */
         max-width: calc(50% - 40px);
     }
-}
-
-@media (max-width: 600px) {
+  }
+  
+  @media (max-width: 600px) {
     .card {
         flex: 1 1 calc(100% - 40px); /* 100% del ancho menos el espacio del gap */
         max-width: calc(100% - 40px);
     }
-}
+  }

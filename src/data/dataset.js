@@ -1,4 +1,4 @@
-export default [
+export default[
   {
     "id": "ada-lovelace",
     "name": "Ada Lovelace",
@@ -249,7 +249,7 @@ export default [
     "facts": {
       "yearOfBirth": "1943",
       "birthPlace": "Belfast, Reino Unido",
-      "mainField": ["Astronomía", "Astrofísica", "Física"]
+      "mainField": ["Astronomía", "Astrofísica", "Física"]//si tiene corchetes adicional es otro arreglo
     },
   },
   {
