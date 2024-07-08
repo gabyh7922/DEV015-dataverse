@@ -1,6 +1,7 @@
 import data from './data/dataset.js'; //importa data
 import { renderItems } from './view.js'; //importa view
 import { renderCategories } from './categories.js'; //importa categories
+import { cfieldCounts } from './curiousFact.js'; //importa dato curioso
 
 // imprimimos las tarjetas actualizando innerHTML del div #root
 const root = document.querySelector("#root"); //constante que selecciona el div
@@ -13,6 +14,9 @@ const cleanButton = document.querySelector('#clean');
 
 // crear opciones de select de categorias dinamicamente. opciones unicas!!
 renderCategories(selectBoxCategory);
+
+const facts = document.querySelector("#curious_fact ");
+facts.appendChild(cfieldCounts(data));
 
 
 // agregar event listener de on Change para el select box de categorias
