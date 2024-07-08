@@ -7,10 +7,6 @@ import { cfieldCounts } from './curiousFact.js'; //importa dato curioso
 const divTest = document.createElement("div");
 divTest.classList.add('para-pasar-el-test');
 
-// estas 2 lineas sirven solo para pasar los test
-const divTest = document.createElement("div");
-divTest.classList.add('para-pasar-el-test');
-
 // imprimimos las tarjetas actualizando innerHTML del div #root
 const root = document.querySelector("#root"); //constante que selecciona el div
 root.innerHTML = renderItems(data,'',"asc");
