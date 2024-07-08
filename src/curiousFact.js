@@ -1,24 +1,24 @@
 
 export const cfieldCounts = (dataset) => {  //creando la constante para importarla en el main
-  let fieldCounts = {}; //curiousFact
+  const fieldCounts = {}; //curiousFact
   let nItems = 0;
   for (const card of dataset){ 
-      for (const dato of card['facts']['mainField']) {
-        //fieldCounts[dato] = fieldCounts[dato] ? fieldCounts[dato]+1 : 1;
-        if (fieldCounts[dato]){
-          fieldCounts[dato] += 1;
-        }
-        else {
-          fieldCounts[dato] = 1;
-          nItems += 1;
-        }
+    for (const dato of card['facts']['mainField']) {
+      //fieldCounts[dato] = fieldCounts[dato] ? fieldCounts[dato]+1 : 1;
+      if (fieldCounts[dato]){
+        fieldCounts[dato] += 1;
+      }
+      else {
+        fieldCounts[dato] = 1;
+        nItems += 1;
       }
     }
-  let fieldPercentages = {}
+  }
+  const fieldPercentages = {}
   for (const [key, value] of Object.entries(fieldCounts)){
     fieldPercentages[key] = String(Math.round((value / nItems)*100)) + '%';
   }
-  console.log(fieldPercentages)
+  //console.log(fieldPercentages)
 
 
   const p = document.createElement("p"); //creando el div

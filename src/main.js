@@ -19,7 +19,7 @@ const cleanButton = document.querySelector('#clean');
 // crear opciones de select de categorias dinamicamente. opciones unicas!!
 renderCategories(selectBoxCategory);
 
-const facts = document.querySelector("#curious_fact ");
+const facts = document.querySelector("#curious_fact");
 facts.appendChild(cfieldCounts(data));
 
 
