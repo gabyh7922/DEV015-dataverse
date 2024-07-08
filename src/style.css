@@ -7,7 +7,7 @@
   
   body {
     font-family: Arial, sans-serif; /* Define la fuente */
-    background-color: #24012ca9; /* Color de fondo suave */
+    background-color: #4c2f53; /* Color de fondo suave */
     padding: 20px; 
     border: 0px;
     margin: 0px;
@@ -18,14 +18,15 @@
   }
   
   header {
-    background-color: #741188; /* Color de fondo del header */
+    background-color: #7d3d89f1; /* Color de fondo del header */
     margin: bottom 20xp; ;
     text-align: center; /* Centra el contenido del header */
   }
   
   header h1 {
     margin: 30px; /* Espacio superior */
-    color: white; /* Color del texto */
+    color: rgb(243, 251, 255);
+    text-shadow: 2px 2px 5px rgb(10, 4, 4); /* Color del texto */
     font-size: 2em; /* Tamaño de fuente */
   }
   
@@ -35,25 +36,16 @@
     gap: 10px;
     justify-content: center;
   }
-  #percentage{
-      background-color: #741188;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      justify-content: center; 
-      margin: 10px; /* Espacio superior */
-    
-  }
-  #porcentage.h1{
-    
-  }
+ 
+ 
   
   .card {
      margin: 10px;
      border: 2px solid #ddd; /* Borde de la tarjeta */
      border-radius: 0 30px 0 30px; /* Bordes redondeados */
      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
-     background-color: #cd7bd7; /* Color de fondo de las tarjetas */
+     background:rgba(241, 116, 239, 0.478); 
+     /* Color de fondo de las tarjetas */
      padding: 20px;
      text-align: left;
      flex: 1 0 calc(25% - 40px); /* Cada tarjeta ocupará un 40% del ancho del contenedor, menos el espacio del gap */
@@ -85,28 +77,55 @@
     width: 250px;
     object-fit: cover;
   }
-
-  .filter-controls{
-    padding-bottom: 10px;
-  }
-  label {
-    color: aliceblue;
-  }
   select{
-    font-size: 12px;
-  }
+    background-color: #a156b0;
+    color: rgb(250, 243, 255);
+    text-shadow: 2px 2px 5px rgb(10, 4, 4);
+    font-size: 15px
 
-  #clean {
-    padding: 0px 5px;
+  } 
+  label{
+    color: rgb(250, 243, 255);
+    text-shadow: 2px 2px 5px rgb(10, 4, 4);
+    color: rgb(250, 243, 255);
+    text-shadow: 2px 2px 5px rgb(10, 4, 4);
+    font-size: 15px
+  }
+  button{
+    background-color: #8e429d;
+    text-shadow: #4c2f53;
+    color: rgb(250, 243, 255);
+    text-shadow: 2px 2px 5px rgb(10, 4, 4);
+    font-size: 15px
   }
                  
   footer {
     max-width: 100%;
-    background-color: #600e70;
+    background-color: #9951a7;
     padding: 20px;
     bottom: 0%;
     text-align: center;
-    color: aliceblue;
+    color: rgb(243, 251, 255);
+    text-shadow: 2px 2px 5px rgb(10, 4, 4);
+    font-size: 20px
+  }
+  #curious_fact{
+    max-width: 100%;
+    background-color: #7d3d89f1;
+    padding: 20px;
+    bottom: 0%;
+    text-align: center;
+    margin: 10px;
+    color: rgb(243, 251, 255);
+    text-shadow: 2px 2px 5px rgb(10, 4, 4);
+    font-size: 25px;
+  }
+  h3{
+    color: rgb(243, 251, 255);
+    text-shadow: 2px 2px 5px rgb(10, 4, 4);
+  }
+  #curious_fact div{
+    margin: 30px;
   }
   @media (max-width: 900px) {
     .card {
@@ -119,5 +138,5 @@
     .card {
         flex: 1 1 calc(100% - 40px); /* 100% del ancho menos el espacio del gap */
         max-width: calc(100% - 40px);
-    }
-  }
+    }}
+ 
