@@ -10,11 +10,11 @@ export const renderCard = (card) => {  //creando la constante para importarla en
   const datos = `
     <li itemtype="imageUrl" itemscope="imageUrl" class="item"><img src="${card['imageUrl']}" /></li>
     <li itemtype="name" itemscope="name" class="item">Nombre: ${card['name']}</li>
-    <li itemtype="shortDescription" itemscope="shortDescription" class="item">Description: ${card['shortDescription']}</li>
+    <li itemtype="shortDescription" itemscope="shortDescription" class="item">Descripción: ${card['shortDescription']}</li>
     <li itemtype="yearOfBirth" itemscope="yearOfBirth" class="item">Año de Nacimiento: ${card['facts']['yearOfBirth']}</li>
     <li itemtype="yearOfDeath" itemscope="yearOfDeath" class="item">Fecha de Muerte: ${yearOfDeath}</li>
     <li itemtype="birthPlace" itemscope="birthPlace" class="item">Lugar de Nacimiento: ${card['facts']['birthPlace']}</li>
-    <li itemtype="mainField" itemscope="mainField" class="item">Especialida: ${card['facts']['mainField']}</li>
+    <li itemtype="mainField" itemscope="mainField" class="item">Especialidad: ${card['facts']['mainField']}</li>
 `;//creando tarjeta que contiene informacion, debe ser trabajada en css
 
   ul.innerHTML = datos; //indicandole al ul que contendra el bloque html de la tarjeta
