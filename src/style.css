@@ -66,7 +66,7 @@
      font-size: 1em;
   }
    
-  .card li {
+  .card li.item {
         margin-bottom: 10px; /* Espaciado inferior entre ítems */
         display: flex;
         color: rgb(15, 17, 18);
@@ -74,13 +74,13 @@
         padding-left: 10px;
   }
 
-  .card li:first-of-type{
+  .card li.item:first-of-type{
     width: 100%;
     align-self: center;
     padding-top: 10px;
   }
 
-  .card li img {
+  .card li.item img {
     height: 200px;
     width: 250px;
     object-fit: cover;
@@ -88,6 +88,16 @@
 
   .filter-controls{
     padding-bottom: 10px;
+  }
+  label {
+    color: aliceblue;
+  }
+  select{
+    font-size: 12px;
+  }
+
+  #clean {
+    padding: 0px 5px;
   }
                  
   footer {
