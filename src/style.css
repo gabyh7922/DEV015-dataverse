@@ -60,30 +60,34 @@
      box-sizing: border-box;
      max-width: calc(25% - 40px); /* Limitar el ancho máximo de cada tarjeta */
      flex-direction: column;
+
+     list-style-type: none; /* Elimina los puntos de la lista */
+     padding: 0; /* Elimina el padding */
+     font-size: 1em;
   }
    
-  /* Estilo para la lista dentro de la tarjeta */
-  .card ul {
-    list-style-type: none; /* Elimina los puntos de la lista */
-    padding: 0; /* Elimina el padding */
-    font-size: 1em;
-    width: 100%
-  }
   .card li {
         margin-bottom: 10px; /* Espaciado inferior entre ítems */
         display: flex;
         color: rgb(15, 17, 18);
         text-shadow: 2px 2px 5px rgb(230, 215, 215);
-  } 
-  .card p {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 15px;
+        padding-left: 10px;
   }
-  .card p img {
+
+  .card li:first-of-type{
+    width: 100%;
+    align-self: center;
+    padding-top: 10px;
+  }
+
+  .card li img {
     height: 200px;
     width: 250px;
     object-fit: cover;
+  }
+
+  .filter-controls{
+    padding-bottom: 10px;
   }
                  
   footer {

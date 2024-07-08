@@ -31,7 +31,7 @@ cleanButton.addEventListener('click',function(){
   selectBoxCategory.value = ''; //actualiza los cambios
   selectBoxOrder.value = 'asc';
 
-  let change_event = new Event('change');// nuevo evento que se ejecuta
+  const change_event = new Event('change');// nuevo evento que se ejecuta
   /*
   * new Event('evento') crea el evento
    */
