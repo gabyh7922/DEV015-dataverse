@@ -7,10 +7,30 @@
     <title>Proyecto</title>
     <link rel="stylesheet" href="style.css">
   </head>
-  <body>
-    <div id="root">
 
+  <body>
+    <header>
+      <h1>MUJERES QUE INSPIRAN</h1>
+      <div class="filter-controls">
+        <!-- las opciones de este selectbox de categorias se agregan por javascript -->
+        <label for="mainField">Categoría</label>
+        <select id="mainField" name="mainField" data-testid="select-filter"></select>
+        <label for="orderDir">Ordenar</label>
+        <select id="orderDir" name="orderDir" data-testid="select-sort">
+          <option value="asc">Ascendiente</option>
+          <option value="desc">Descendiente</option>
+        </select>
+        <button type="button" id="clean">Limpiar</button>
+      </div>
+    </header>
+    <div id="root">
+      <div name="too"></div>
     </div>
+    <div id="curious_fact">
+      <h3>Dato curioso:</h3>
+      <h4>  Mayor participacion segun su ocupacion calculado en porcentaje es: </h4>
+    </div>
+    <footer>Creado por: Gaby y Pame.</footer>
      <script src="main.js" type="module"></script>
-    </body>
-  </html>
+  </body>
+</html>
