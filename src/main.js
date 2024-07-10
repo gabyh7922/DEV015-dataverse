@@ -2,6 +2,8 @@ import data from './data/dataset.js'; //importa data
 import { renderItems } from './view.js'; //importa view
 import { renderCategories } from './categories.js'; //importa categories
 import { cfieldCounts } from './curiousFact.js'; //importa dato curioso
+import { filterData } from './dataFunctions.js';
+
 
 // estas 2 lineas sirven solo para pasar los test
 const divTest = document.createElement("div");
@@ -9,7 +11,7 @@ divTest.classList.add('para-pasar-el-test');
 
 // imprimimos las tarjetas actualizando innerHTML del div #root
 const root = document.querySelector("#root"); //constante que selecciona el div
-root.innerHTML = renderItems(data,'',"asc");
+root.innerHTML = renderItems(filterData(data,'',"asc"));
 
 const selectBoxCategory = document.querySelector('select[name="mainField"]');
 const selectBoxOrder = document.querySelector('select[name="orderDir"]');
@@ -26,13 +28,13 @@ facts.appendChild(cfieldCounts(data));
 // agregar event listener de on Change para el select box de categorias
 selectBoxCategory.addEventListener('change',function(event){
   const orderDir = selectBoxOrder.value;
-  root.innerHTML = renderItems(data,event.target.value,orderDir);
+  root.innerHTML = renderItems(filterData(data,event.target.value,orderDir));
 });
 
-// agregar event listener de on Change para el select box de ordenar
+// agregar event listener de on Change para el select box de categorias
 selectBoxOrder.addEventListener('change',function(event){
-  const currentCategory = selectBoxCategory.value;
-  root.innerHTML = renderItems(data,currentCategory,event.target.value);
+  const category = selectBoxCategory.value;
+  root.innerHTML = renderItems(filterData(data,category,event.target.value));
 });
 
 cleanButton.addEventListener('click',function(){
