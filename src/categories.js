@@ -30,3 +30,11 @@ export function renderCategories(selectBox) {
   }
 
 }
+
+//hacer rebase : volver a sentar la base , debes clonar la rama que sale desde dev pero dev tiene una version , 
+//debor revisar si mis cabios son compatibles con la rama
+//git stash guarda tus cambios en algun lugar
+//para mover de rama, git checkout dev = habla de cambio de rama especifica
+//git checkout - me muevo a la rama anterior
+// git rebase Nombre-rama_dev me une los cambios 
+// git stash pop me une los cambios que guarde con git stash de mi rama 
