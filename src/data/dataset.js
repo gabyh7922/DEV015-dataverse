@@ -220,7 +220,7 @@ export default[
     "name": "Lise Meitner",
     "shortDescription": "Física nuclear, contribuyó a la teoría de la fisión nuclear.",
     "descripción": "Física austriaca-sueca, dejó un legado imborrable en la física nuclear y la radioquímica. A pesar de enfrentar obstáculos de género en una era dominada por hombres, colaboró con Otto Hahn en el descubrimiento de la fisión nuclear, un avance revolucionario. Aunque no compartió el Premio Nobel por este logro, su contribución fue crucial para comprender la energía nuclear y la física de partículas. Su determinación y pasión por la ciencia han inspirado a generaciones de científicas. Lise Meitner es un símbolo perdurable de la perseverancia femenina y el impacto duradero que las mujeres pueden tener en la ciencia.",
-    "imageUrl": "https://alpoma.net/tecob/wp-content/meitner.jpg",
+    "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.iSnnuD6nD-yYnUSaClZUNwHaDt&pid=Api&P=0&h=180",
     "facts": {
       "yearOfBirth": "1878",
       "yearOfDeath": "1968",
@@ -233,7 +233,7 @@ export default[
     "name": "Sau Lan Wu",
     "shortDescription": "Física de partículas, contribuyó a experimentos clave en física de alta energía.",
     "descripción": "Física experimental sinoamericana, ha sido una fuerza motriz en la física de partículas. Destacó en experimentos en el CERN y lideró investigaciones cruciales, como el descubrimiento del quark c, que expandieron nuestro entendimiento de la estructura fundamental de la materia. Wu superó desafíos en una disciplina dominada por hombres y ha sido un faro de inspiración para científicas de todo el mundo. Sau Lan Wu es un ejemplo de excelencia científica y de cómo las mujeres pueden dejar huella en la investigación de vanguardia.",
-    "imageUrl": "https://meganmcclellanwx.wordpress.com/wp-content/uploads/2019/03/13695915095_09f6b18449_c.jpg",
+    "imageUrl": "https://kids.kiddle.co/images/thumb/f/f6/Physicist_Sau_Lan_Wu.jpg/300px-Physicist_Sau_Lan_Wu.jpg",
     "facts": {
       "yearOfBirth": "1940",
       "birthPlace": "Hong Kong, China",
@@ -283,7 +283,7 @@ export default[
     "name": "Marjory Stephenson",
     "shortDescription": "Microbióloga y bioquímica, investigó en enzimología.",
     "descripción": "Bioquímica británica, brilló como científica en una época en la que las mujeres enfrentaban obstáculos muy significativos en la investigación científica. Su trabajo pionero en microbiología, enzimología y bioquímica contribuyó al entendimiento de procesos fundamentales en la vida. Fue una de las primeras mujeres en ser elegida miembro de la Royal Society, un reconocimiento a su destacada contribución a la ciencia. Además, fue una mentora y defensora de las mujeres en la ciencia, inspirando y allanando el camino para futuras generaciones.",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/7/75/Marjory_Stephenson_1930s.jpg",
+    "imageUrl": "https://tse3.mm.bing.net/th?id=OIP.1-8SQEIu-zIL5G1PdGWYXQAAAA&pid=Api&P=0&h=180",
     "facts": {
       "yearOfBirth": "1885",
       "yearOfDeath": "1948",
@@ -296,7 +296,7 @@ export default[
     "name": "Barbara McClintock",
     "shortDescription": "Descubrió los elementos transponibles.",
     "descripción": "Fue una genetista que descubrió los elementos transponibles, también conocidos como genes saltarines, que son segmentos de ADN que pueden moverse a diferentes posiciones dentro del genoma de una célula. Recibió el Premio Nobel de Fisiología o Medicina en 1983.",
-    "imageUrl": "https://cdn.britannica.com/62/194762-050-59387496/Barbara-McClintock-1947.jpg",
+    "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.RFA_DITcywlqH_yZlXWbTQHaEJ&pid=Api&P=0&h=180",
     "facts": {
       "yearOfBirth": "1902",
       "yearOfDeath": "1992",
