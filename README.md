@@ -87,9 +87,9 @@ Se actualizaron los cambios y las nuevas características en el archivo README d
 
 * Después nos dedicamos a la generación de los datos ,para el cuál usamos el ChatGPT , que también adjuntamos algunas capturas de pantallas.y para crear algunas imágenes fue con el generador de imágenes de Bing. El tema que elegimos fue mujeres destacables en el área de ciencias, ya sea de computación,química, física, videojuegos, astronomía etc.Donde la data fue incorporada en formato Jason.
 
-<img src="screenshots/captura_1.png" width="100%">
-<img src="screenshots/captura_2.png" width="100%">
-<img src="screenshots/captura_3.png" width="100%">
+<img src="src/screenshots/captura_1.png" width="100%">
+<img src="src/screenshots/captura_2.png" width="100%">
+<img src="src/screenshots/captura_3.png" width="100%">
 
 * El proyecto se encuentra en GitHub y la interfaz está desplegada en GitHub Pages.
 
