@@ -1,4 +1,4 @@
-import { example, anotherExample } from '../src/dataFunctions.js';
+import { filterData, sortData } from '../src/dataFunctions.js';
 //import { data as fakeData } from './data.js';
 
 
