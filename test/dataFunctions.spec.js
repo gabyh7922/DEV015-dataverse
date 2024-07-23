@@ -3,9 +3,9 @@ import data from '../src/data/dataset.js';
 // Test de filterData
 describe('filterData', () => {
   it('debería filtrar los datos por mainField correctamente', () => {
-    const filteredData = filterData(data, 'Matemáticas');
+    const filteredData = filterData(data, 'mainField','Matemáticas');
     expect(filteredData).toBeInstanceOf(Array);
-    expect(filteredData.length).toBeGreaterThan(0);
+    expect(filteredData.length).toBe(6);
   });
 });
 // Test de sortData

@@ -4,7 +4,7 @@ export const filterData = (data, filterBy='mainField', value='') => {
 
   // filtrar tarjetas
   // Si estamos filtrando por una categoría específica
-  if( filterBy === 'mainField' && value ){
+  if( value ){
     return data.filter((cardData)=>cardData['facts']['mainField'].includes(value));
   }
   else{
@@ -17,15 +17,15 @@ export const filterData = (data, filterBy='mainField', value='') => {
 export const sortData = (data, sortBy='name', sortOrder='asc') => {
 
   // ordenar por nombre
-  if( sortBy === 'name' ){
-    if( sortOrder === 'desc'){
-      data.sort((a,b)=>b.name.localeCompare(a.name));
-    }
-    else{
-      // ordenar ascendiente por defecto
-      data.sort((a,b)=>a.name.localeCompare(b.name));
-    }
+  
+  if( sortOrder === 'desc'){
+    data.sort((a,b)=>b.name.localeCompare(a.name));
   }
+  else{
+    // ordenar ascendiente por defecto
+    data.sort((a,b)=>a.name.localeCompare(b.name));
+  }
+  
 
   return data;
 }
@@ -40,21 +40,12 @@ export const computeStats = (data) => {
     return acc;
   }, {});
 
-  // Obtener el número de ítems únicos
-  const nItems = Object.keys(fieldCounts).length;
+  const totalItems = data.length;
 
   // Calcular los porcentajes
   const fieldPercentages = Object.fromEntries(
-    Object.entries(fieldCounts).map(([key, value]) => [key, `${Math.round((value / nItems) * 100)}%`])
+    Object.entries(fieldCounts).map(([key, value]) => [key, `${Math.round((value / totalItems) * 100)}%`])
   );
 
-  // Crear el elemento p y agregar el texto
-  const p = document.createElement("p");
-  p.textContent = `
-    Ciencias de la Computación: ${fieldPercentages['Ciencias de la Computación'] || '0%'} ,
-    Matemáticas: ${fieldPercentages['Matemáticas'] || '0%'} ,
-    Química: ${fieldPercentages['Química'] || '0%'}
-  `.trim();
-
-  return p;
+  return fieldPercentages;
 }
