@@ -123,3 +123,5 @@ Aqui detallaremos las funcionalidades:
   desde distintos tamaños de pantallas: móviles, tablets y desktops.
 
 * Este proyecto no solo celebra las contribuciones de mujeres notables en la ciencia, sino que también sirve como un recurso educativo para inspirar y motivar a futuras generaciones. Gaby y Pame, trabajando en duplas, logramos crear una plataforma que es informativa, fácil de usar y visualmente atractiva.
+
+  Despliegue del proyecto https://gabyh7922.github.io/DEV015-dataverse/src/
