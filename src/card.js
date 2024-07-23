@@ -1,5 +1,4 @@
 
-
 export const renderCard = (card) => {  //creando la constante para importarla en el main
   
   const ul = document.createElement("ul"); //creando el ul
@@ -20,4 +19,3 @@ export const renderCard = (card) => {  //creando la constante para importarla en
   ul.innerHTML = datos; //indicandole al ul que contendra el bloque html de la tarjeta
   return ul; //retornando div
 }
-
