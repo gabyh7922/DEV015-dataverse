@@ -1,17 +1,28 @@
-import { filterData, sortData } from '../src/dataFunctions.js';
-//import { data as fakeData } from './data.js';
-
-
-describe('example', () => {
-
-  it('returns `example`', () => {
-    expect(example()).toBe('example');
+import { filterData, sortData, computeStats } from '../src/dataFunctions.js';
+import data from '../src/data/dataset.js';
+// Test de filterData
+describe('filterData', () => {
+  it('debería filtrar los datos por mainField correctamente', () => {
+    const filteredData = filterData(data, 'mainField','Matemáticas');
+    expect(filteredData).toBeInstanceOf(Array);
+    expect(filteredData.length).toBe(6);
   });
 });
-
-describe('anotherExample', () => {
-
-  it('returns `anotherExample`', () => {
-    expect(anotherExample()).toBe('OMG');
+// Test de sortData
+describe('sortData', () => {
+  it('debería ordenar los datos por nombre de manera ascendente', () => {
+    const sortedData = sortData(data, 'name', 'asc');
+    expect(sortedData[0].name < sortedData[1].name).toBe(true);
+  });
+  it('debería ordenar los datos por nombre de manera descendente', () => {
+    const sortedData = sortData(data, 'name', 'desc');
+    expect(sortedData[0].name > sortedData[1].name).toBe(true);
+  });
+});
+// Test de computeStats
+describe('computeStats', () => {
+  it('debería computar estadísticas básicas de los datos', () => {
+    const stats = computeStats(data);
+    expect(stats.count).toBe(data.length);
   });
 });
